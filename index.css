@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "scoreboard";
+    src:url("alarmclock.ttf");
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+body {
+    background: #f5f5f5;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.score-board {
+    width: 700px;
+    margin: 0 auto;
+    color: #fff;
+    background: #031D44;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: #fff 5px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-score-board,
+#away-score-board {
+    background-color: black;
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: scoreboard;
+    font-weight: bolder;
+    border: black solid 5px;
+}
+
+.button-container {
+    margin: 10px 0 30px;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    font-family: scoreboard;
+    font-weight: bold;
+    font-size: 16px;
+    background: #031D44;
+    color: #AFC5E6;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+#new-game-btn {
+    background: yellow;
+    color: black;
+    font-family: Comic Sans MS;
+    font-size: 14px;
+    border:  black 2px solid;
+    text-transform: uppercase;
+}
